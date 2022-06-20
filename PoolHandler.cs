@@ -4,6 +4,11 @@ using UnityEngine;
 
 namespace MTDAssetLoading
 {
+    /*
+        Some objects are always pooled within the Awake function and therefore have to be accessed in its prefix. See console output for the log generated in Line #20 
+        If the pooled object is not listed here that means it's pooled using ObjectPooler.AddObject and can be accessed by hooking that function.
+        Other objects aren't pooled at all and expose their SpriteRenderer by themselves. Such as Pickups.ChestPickup, PlayerController and PlayerState.
+    */
     static class PoolHandler
     {
         [HarmonyPatch(typeof(ObjectPooler), "Awake")]
