@@ -37,7 +37,7 @@ namespace MTDAssetLoading
 
             try
             {
-                Harmony.CreateAndPatchAll(typeof(SpawnHandler));
+                Harmony.CreateAndPatchAll(typeof(PoolHandler));
             }
             catch
             {
