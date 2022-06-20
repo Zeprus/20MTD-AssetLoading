@@ -1,0 +1,17 @@
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\bin\Debug\netstandard2.0\MTDAssetLoading.deps.json
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\bin\Debug\netstandard2.0\MTDAssetLoading.dll
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\bin\Debug\netstandard2.0\MTDAssetLoading.pdb
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\obj\Debug\netstandard2.0\MTDAssetLoading.csproj.AssemblyReference.cache
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\obj\Debug\netstandard2.0\PluginInfo.cs
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\obj\Debug\netstandard2.0\MTDAssetLoading.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\obj\Debug\netstandard2.0\MTDAssetLoading.AssemblyInfoInputs.cache
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\obj\Debug\netstandard2.0\MTDAssetLoading.AssemblyInfo.cs
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\obj\Debug\netstandard2.0\MTDAssetLoading.csproj.CoreCompileInputs.cache
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\obj\Debug\netstandard2.0\MTDAssetLoading.dll
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\obj\Debug\netstandard2.0\MTDAssetLoading.pdb
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\bin\Debug\netstandard2.0\Assembly-CSharp.dll
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\bin\Debug\netstandard2.0\UnityEngine.UI.dll
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\bin\Debug\netstandard2.0\Unity.InputSystem.dll
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\bin\Debug\netstandard2.0\Unity.TextMeshPro.dll
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\bin\Debug\netstandard2.0\Facepunch.Steamworks.Win64.dll
+E:\Hacking\Unity_Win\20MTD\MTDAssetLoading\obj\Debug\netstandard2.0\MTDAssetLoading.csproj.CopyComplete
