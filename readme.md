@@ -5,9 +5,9 @@ UnityProject_TestAssetBundle.zip is a Unity project example for simple assetbund
 "testassetbundle" needs to be placed into "20MinuteTillDawn\MinutesTillDawn_Data\StreamingAssets". Create the folder if it does not yet exist.
 
 ## Sprite locations:
-**(incomplete) List of classes that expose Texture, Sprites or SpriteRenderers**
-Enemies: PoolHandler
-Bullets: PoolHandler
-Player: PlayerController, PlayerState
-Chest: Pickups.ChestPickup
+<ins>**(incomplete) List of classes that expose Texture, Sprites or SpriteRenderers**</ins> <br>
+Enemies: PoolHandler <br>
+Bullets: PoolHandler <br>
+Player: PlayerController, PlayerState <br>
+Chest: Pickups.ChestPickup <br>
 Powerups: Powerup
