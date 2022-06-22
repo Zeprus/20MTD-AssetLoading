@@ -19,14 +19,17 @@ namespace MTDAssetLoading
             foreach (ObjectPoolItem objectPoolItem in __instance.itemsToPool)
             {
                 MTDAssetLoader.Log.LogInfo("Item to pool: " + objectPoolItem.tag + " " + objectPoolItem.amountToPool + " " + objectPoolItem.shouldExpand + " " + objectPoolItem.objectToPool.tag);
+                //swap Enemy "BrainMonster" texture
                 if (objectPoolItem.tag == "BrainMonster")
                 {
                     MTDAssetLoader.Log.LogInfo("Cutifying BrainMonster...");
                     SpriteRenderer spriteRenderer = objectPoolItem.objectToPool.GetComponent<SpriteRenderer>();
                     spriteRenderer.sprite = MTDAssetLoader.cuteBrainMonsterSprite;
                 }
+                //change XP orb color
                 if (objectPoolItem.tag == "SmallXP" || objectPoolItem.tag == "LargeXP")
                 {
+                    MTDAssetLoader.Log.LogInfo("Changing XP orb color...");
                     GameObject xpObject = objectPoolItem.objectToPool;
                     GameObject bounce = xpObject.transform.GetChild(0).gameObject;
                     SpriteRenderer spriteRenderer = bounce.GetComponent<SpriteRenderer>();
