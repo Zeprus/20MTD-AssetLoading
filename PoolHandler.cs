@@ -1,6 +1,7 @@
 using HarmonyLib;
 using flanne;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace MTDAssetLoading
 {
@@ -23,6 +24,13 @@ namespace MTDAssetLoading
                     MTDAssetLoader.Log.LogInfo("Cutifying BrainMonster...");
                     SpriteRenderer spriteRenderer = objectPoolItem.objectToPool.GetComponent<SpriteRenderer>();
                     spriteRenderer.sprite = MTDAssetLoader.cuteBrainMonsterSprite;
+                }
+                if (objectPoolItem.tag == "SmallXP" || objectPoolItem.tag == "LargeXP")
+                {
+                    GameObject xpObject = objectPoolItem.objectToPool;
+                    GameObject bounce = xpObject.transform.GetChild(0).gameObject;
+                    SpriteRenderer spriteRenderer = bounce.GetComponent<SpriteRenderer>();
+                    spriteRenderer.color = new Color(251 / 255.0f, 72 / 255.0f, 196 / 255.0f, 1.0f); //pink
                 }
             }
             return true;
